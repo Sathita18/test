@@ -1,0 +1,11 @@
+# ============ User Profile ============
+c_uri_user_profile : /api/users/12
+c_uri_user_profile_not_found : /api/users/1234
+
+# ============ Other ============
+c_timeout : 10s
+c_id : 12
+c_email : rachel.howell@reqres.in
+c_first_name : Rachel
+c_last_name : Howell
+c_avatar : https://reqres.in/img/faces/12-image.jpg

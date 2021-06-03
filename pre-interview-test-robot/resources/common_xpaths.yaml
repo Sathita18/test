@@ -1,0 +1,6 @@
+# ============ Login ============
+c_txt_username : //input[@id='username']
+c_txt_password : //input[@id='password']
+c_btn_login : //button[@class="radius"]
+c_txt_logged : //div[@id='flash-messages']  #//div[@data-alert][1]  #//div[@id="flash-messages"]//div[@id="flash"]
+c_btn_logout : //a[@class='button secondary radius']
