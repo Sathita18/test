@@ -26,7 +26,6 @@ Template Validate Login Page Success
     ${expected_url}=        Set Variable    ${url}
     ${locator}=             Set Variable    ${c_txt_logged}
     ${text}=                Set Variable    ${expected_logged}
-    Go To    ${url}
     Check Current Url    ${expected_url}
     Verify Text    ${locator}    ${text}
     Click Web Element    ${c_btn_logout}
@@ -76,7 +75,7 @@ Open Web Browser
     BuiltIn.Run Keyword If    '${set_window_size}' == 'TRUE'    SeleniumLibrary.Set Window Size    ${window_width}    ${window_height}
     ...    ELSE    SeleniumLibrary.Maximize Browser Window
     
-    SeleniumLibrary.Capture Page Screenshot    ${page_name}     #verify_otp_ui.png
+    SeleniumLibrary.Capture Page Screenshot    ${page_name}
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Check Current Url
