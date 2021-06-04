@@ -35,7 +35,7 @@ For Example
 - robot -V resources/configs/configs.yaml -V resources/testdata/test_data.yaml -d /LogOutput/pre_interview_test_robot -T --loglevel TRACE testcases/api/user_profile.robot
 
 # Options
-- -d --outputdir dir       Where to create output files.
-- -t --test name           Select test cases to run by name or long name.
-- -V --variablefile path	 Python or YAML file file to read variables from.
-- -T --timestampoutputs    Add timestamp to all generated output files Eg. output-20210604-154410.xml
+- -d --outputdir dir     : Where to create output files.
+- -t --test name         : Select test cases to run by name or long name.
+- -V --variablefile path : Python or YAML file file to read variables from.
+- -T --timestampoutputs  : Add timestamp to all generated output files Eg. output-20210604-154410.xml
